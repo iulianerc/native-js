@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "name": "Calculator",
+      "price": 10000,
+      "unit": "unit",
+      "maxCount": 5
+    },
+    {
+      "name": "smile",
+      "price": "34",
+      "unit": "kg",
+      "maxCount": "15",
+      "id": 5
+    },
+    {
+      "name": "aple",
+      "price": "15",
+      "unit": "kg",
+      "maxCount": "40",
+      "id": 15
+    },
+    {
+      "name": "book",
+      "price": "329",
+      "unit": "unit",
+      "maxCount": "40",
+      "id": 16
+    },
+    {
+      "name": "alchool",
+      "price": "100000",
+      "unit": "unit",
+      "maxCount": "45",
+      "id": 17
+    },
+    {
+      "name": "alchool etilic",
+      "price": "100000",
+      "unit": "unit",
+      "maxCount": "45",
+      "id": 18
+    },
+    {
+      "name": "alchool metilic",
+      "price": "100000",
+      "unit": "unit",
+      "maxCount": "45",
+      "id": 19
+    },
+    {
+      "name": "metal",
+      "price": "100000",
+      "unit": "unit",
+      "maxCount": "45",
+      "id": 20
+    },
+    {
+      "name": "carte",
+      "price": "100000",
+      "unit": "unit",
+      "maxCount": "45",
+      "id": 21
+    },
+    {
+      "name": "frunza",
+      "price": "100000",
+      "unit": "unit",
+      "maxCount": "45",
+      "id": 22
+    },
+    {
+      "name": "copac",
+      "price": "100000",
+      "unit": "unit",
+      "maxCount": "45",
+      "id": 23
+    },
+    {
+      "name": "english",
+      "price": "100000",
+      "unit": "unit",
+      "maxCount": "45",
+      "id": 24
+    },
+    {
+      "name": "product",
+      "price": "100000",
+      "unit": "unit",
+      "maxCount": "45",
+      "id": 25
+    },
+    {
+      "name": "produs",
+      "price": "100000",
+      "unit": "unit",
+      "maxCount": "45",
+      "id": 26
+    },
+    {
+      "name": "fsds",
+      "price": "5443",
+      "unit": "kg",
+      "maxCount": "45",
+      "id": 27
+    },
+    {
+      "name": "smile",
+      "price": "34",
+      "unit": "kg",
+      "maxCount": "40",
+      "id": 28
+    }
+  ]
+}

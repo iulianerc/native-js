@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.addProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.addProduct__active{
+    background-color: rgba(100,100,100,0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+#addProduct{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+#addProduct_form{
+    width: 700px;
+    background-color: #fff;
+    text-align: center;
+    padding: 300px 0;
+}
+.search_block{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#search{
+    display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+}
+#products{
+    width: 800px;
+    margin: auto;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    grid-row-gap: 40px;
+}
+.products_item{
+    width: 200px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    position: relative;
+    background-color: cadetblue;
+}
+.deleteProduct{
+    position: absolute;
+    left:10px;
+    top: 10px;
+}
+.addToCart{
+    position: absolute;
+    right:10px;
+    top: 10px;
+}
+.products_price{
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    line-height: 30px;
+}
+.shopCart_wrapper{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+.shopCart{
+    position: relative;
+}
+.shopCart_icon{
+    padding: 20px 10px;
+    background: lightcoral;
+}
+.shopCart form{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: lavender;
+    padding: 20px;
+}
+.shopCart:hover form{
+    display: block;
+}
+.shopList {
+    display: grid;
+    grid-template-columns: 35% 25% 20% 20%;
+    grid-gap: 10px;
+    width: 500px;
+}
+
+.shopList .name {
+    overflow: hidden;
+}
+
+.shopList .countToBuy {
+    max-width: 70px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+#totalPrice {
+    text-align: left;
+    padding-right: 30px;
+}

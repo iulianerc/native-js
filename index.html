@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/css.css">
+
+</head>
+<body>
+<div id="app">
+  <div class="addProduct">
+    <button id="addProduct">add product</button>
+    <div id="addProduct_form" hidden>
+      <input type="text" name="name" placeholder="give product name"><br><br>
+      <input type="text" name="price" placeholder="give product price"><br><br>
+      <input type="text" name="unit" placeholder="give product unit"><br><br>
+      <input type="text" name="maxCount" placeholder="give product max count"><br><br>
+      <button id="addProduct_form__button"> add product </button>
+    </div>
+  </div>
+  <div class="search_block">
+    <input id="search" type="text" placeholder="Search">
+  </div>
+  <div id="products"></div>
+  <div class="shopCart_wrapper">
+    <div class="shopCart">
+      <div class="shopCart_icon">
+        Shop Cart
+      </div>
+      <form action="#">
+        <div id="shopListBlock"></div>
+        <div id="totalPrice"></div>
+        <br>
+        <input type="text" id="name" name="name"  placeholder="Type your name"><br><br>
+        <input type="text" id="address" name="address" placeholder="Type your address"><br><br>
+        <input type="text" id="phone" name="phone" placeholder="Type your phone"><br><br>
+        <button id="makeOrder" type="submit">Make</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="demoBlock" hidden>
+  <div class="products_item" id="products_item__demo">
+    <button class="addToCart">Add to cart</button>
+    <button class="deleteProduct">x</button>
+    {{name}}
+    <div class="products_price">{{price}} / {{unit}}</div>
+  </div>
+  <div class="shopList" id="shopList_item__demo">
+    <div class="name">{{name}}</div>
+    <div class="pricePerUnit">{{price}}</div>
+    <div>
+      <input class="countToBuy" type="number" value="{{count}}" min="1" max="{{maxCount}}"> {{unit}}
+    </div>
+    <div class="priceProduct">{{unitPrice}}</div>
+  </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
